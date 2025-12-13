@@ -4,9 +4,12 @@ const output = document.getElementById("welcomeId");
 
 function welcome()
 {
-    output.textContent = input.value;
-
+    output.textContent = input.value.toUpperCase();
+    
+    output.style.color = "blue";
+    
 }
+
 
 const box1 = document.getElementById("box-1");
 const box2 = document.getElementById("box-2");
